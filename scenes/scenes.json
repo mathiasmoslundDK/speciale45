@@ -1,0 +1,72 @@
+[
+  {
+    "id": "studio-dark",
+    "label": "Atelier · donker",
+    "type": "studio",
+    "env": "studio-dark/env.v1.exr",
+    "studio": {
+      "top": "#17201d",
+      "wall": "#17201d",
+      "floor": "#46514a"
+    },
+    "sun": {
+      "azimuth": 45,
+      "elevation": 65,
+      "intensity": 1.8,
+      "color": "#ffffff"
+    },
+    "exposure": 1.05,
+    "thumb": "studio-dark/thumb.v2.webp",
+    "credit": "Eigen studiobelichting, gemaakt voor Spéciale45, CC0",
+    "ui": {
+      "tone": "dark"
+    }
+  },
+  {
+    "id": "pc-hooftstraat",
+    "label": "P.C. Hooftstraat · 3D",
+    "type": "scene3d",
+    "model": "pc-hooftstraat/street.v1.glb",
+    "env": "pc-hooftstraat/env.v1.exr",
+    "bytes": 16454757,
+    "orbit": {
+      "maxDistance": 5.3
+    },
+    "sun": {
+      "azimuth": 60,
+      "elevation": 72,
+      "intensity": 2.0,
+      "color": "#fff0d9"
+    },
+    "exposure": 1.0,
+    "thumb": "pc-hooftstraat/thumb.v1.webp",
+    "credit": "P.C. Hooftstraat, eigen 3D-model naar een straatfoto (maart 2023). Winkelnamen alleen ter herkenning.",
+    "ui": {
+      "tone": "light",
+      "stageBg": "#cdc6bc"
+    }
+  },
+  {
+    "id": "studio-light",
+    "label": "Atelier · warm",
+    "type": "studio",
+    "env": "studio-light/env.v1.exr",
+    "studio": {
+      "top": "#d9d6ce",
+      "wall": "#d9d6ce",
+      "floor": "#f0ede5"
+    },
+    "sun": {
+      "azimuth": 45,
+      "elevation": 65,
+      "intensity": 1.7,
+      "color": "#ffffff"
+    },
+    "exposure": 1.05,
+    "thumb": "studio-light/thumb.v2.webp",
+    "credit": "Eigen studiobelichting, gemaakt voor Spéciale45, CC0",
+    "ui": {
+      "tone": "light"
+    }
+  }
+]

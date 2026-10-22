@@ -1,0 +1,29 @@
+JESSE (jesse.v2.glb): the character in the Speciale45 configurator's outro
+
+Jesse's likeness, his two photographs and what was made from them (the face
+and baked skin textures, the embroidery and slipper emblem details) belong to
+Jesse and the owner of Speciale45. They are not CC0 or Apache-licensed and may
+not be reused.
+
+The character was built for Speciale45 from these open sources:
+
+Body base mesh and skeleton
+  "Male Base Mesh - 3D Person (Rigged, A-Pose)" by Innerscene, adapted from
+  MakeHuman. CC0 1.0 Universal. See MAKEHUMAN-LICENSE.txt.
+  https://www.innerscene.com/tools/library/3d-parts/male-base-mesh-3d-person-rigged-a-pose-380e6d89
+  Rescaled, limb rest positions changed, the head replaced.
+
+Anatomical head (cranium, ears, neck, jaw underside)
+  Blender Studio and Blender Community, Human Base Meshes v1.4.1. CC0 1.0.
+  See BLENDER-BASE-MESHES-LICENSE.txt.
+  https://download.blender.org/demo/asset-bundles/human-base-meshes/
+  Reshaped and joined to the fitted face.
+
+Face topology
+  MediaPipe (Google) canonical face topology. Apache License 2.0.
+  See MEDIAPIPE-LICENSE.txt. https://github.com/google-ai-edge/mediapipe
+  Modified: adapted, fitted to the reference, extended into the forehead and
+  cranium, given photographic UV coordinates, decimated for the web.
+
+Clothing, slippers, bracelet, hair, the fabric normal texture and the three
+animations (walk, idle, nice_choice) were made for this project.
